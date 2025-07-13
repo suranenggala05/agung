@@ -18,19 +18,19 @@ if menu =="Beranda":
 # Main page content
 st.markdown("# Kalkulator Kimia Dasar")
 st.sidebar.markdown("# Kalkulator Kimia Dasar")
-import streamlit as st
+    import streamlit as st
 
-st.markdown("# Rumus Massa Rellative")
-st.sidebar.markdown("# Rumus Massa Rellative")
-import streamlit as st
-
-st.markdown("# Rumus Stoikiometri")
-st.sidebar.markdown("# Rumus Stoikiometri")
-import streamlit as st
-
-st.markdown("# Rumus Termokimia")
-st.sidebar.markdown("# Rumus Termokimia")
-import streamlit as st
-
-st.markdown("# Kesetimbangan Kimia")
-st.sidebar.markdown("# Kesetimbangan Kimia")
+    st.markdown("# Rumus Massa Rellative")
+    st.sidebar.markdown("# Rumus Massa Rellative")
+    import streamlit as st
+    
+    st.markdown("# Rumus Stoikiometri")
+    st.sidebar.markdown("# Rumus Stoikiometri")
+    import streamlit as st
+    
+    st.markdown("# Rumus Termokimia")
+    st.sidebar.markdown("# Rumus Termokimia")
+    import streamlit as st
+    
+    st.markdown("# Kesetimbangan Kimia")
+    st.sidebar.markdown("# Kesetimbangan Kimia")
