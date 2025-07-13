@@ -2,8 +2,8 @@ import streamlit as st
 
 #Sidebar Menu
 menu = st.sidebar.selectbox(
-    "Pilih menu"
-    ["Beranda", "Kalkulator Kimia Dasar", "Soal Hots Kimia Dasar"]
+    "Pilih menu",
+    ["Beranda","Kalkulator Kimia Dasar","Soal Hots Kimia Dasar"]
 )
 
 # ---Menu BERANDA ---
