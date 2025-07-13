@@ -3,7 +3,7 @@ import streamlit as st
 #Sidebar Menu
 menu = st.sidebar.selectbox(
     "Pilih menu",
-    ["Beranda","Kalkulator Kimia Dasar = [Rumus Avogadro] [Rumus Massa Rellative] [Rumus Stoikiometri] [Rumus Termokimia]","Soal Hots Kimia Dasar","Catatan"]
+    ["Beranda","Kalkulator Kimia Dasar","Soal Hots Kimia Dasar","Catatan"]
 )
 
 # ---Menu BERANDA ---
