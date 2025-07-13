@@ -7,7 +7,7 @@ menu = st.sidebar.selectbox(
 )
 
 # ---Menu BERANDA ---
-if menu =="Beranda"
+if menu =="Beranda":
     st.title("Asiknya Meghitung dan Mempermudah dalam Kimia Dasar")
     st.subheader("LPK Kelompok 5 kelas 1B")
 
