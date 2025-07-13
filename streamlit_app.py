@@ -10,4 +10,5 @@ menu = st.sidebar.selectbox(
 if menu =="Beranda":
     st.title("Asiknya Meghitung dan Mempermudah dalam Kimia Dasar")
     st.subheader("LPK Kelompok 5 kelas 1B")
+    st.image("https://photos.app.goo.gl/bYz51d4fvKGc1SLE6",width=400)
 
