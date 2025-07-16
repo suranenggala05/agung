@@ -109,9 +109,9 @@ elif menu == "Soal-soal Kimia Dasar":
     st.subheader("Silakan pilih soal atau materi yang ingin diakses:")
 
     pilihan_soal = st.selectbox("Pilih File:", [
-        "Latihan Soal Bab 1 (Google Docs)",
-        "Latihan Soal Bab 2 (PDF)",
-        "Latihan Soal Bab 3 (Google Drive)"
+        "Latihan Soal kimia dasar mudah (Google Docs)",
+        "Latihan Soal kimia dasar 2025 (PDF)",
+        "Latihan Soal kimia (Google Drive)"
     ])
 
     if pilihan_soal == "Latihan Soal Kimia Dasar Mudah (Google Docs)":
