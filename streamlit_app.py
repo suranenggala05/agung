@@ -116,13 +116,11 @@ elif menu == "Soal-soal Kimia Dasar":
         "Latihan Soal kimia dasar 2025 (PDF)",
         "Latihan Soal kimia (Google Drive)"
     ])
+      if pilihan_soal == "Latihan Soal kimia dasar 2025 (PDF)":
+        st.markdown("[👉 Klik di sini untuk download PDF 2025](https://contoh.com/file2025.pdf)", unsafe_allow_html=True)
 
-    if pilihan_soal == "Latihan Soal Kimia Dasar Mudah (Google Docs)":
-        st.markdown("[👉 Klik di sini untuk membuka soal Kimia dasar 1](https://docs.google.com/document/d/xxx)", unsafe_allow_html=True)
+    elif pilihan_soal == "Latihan Soal kimia dasar mudah (Google Drive)":
+        st.markdown("[👉 Klik di sini ke Google Drive Latihan Soal Mudah](https://drive.google.com/drive/folders/1OOaMNXN3Vwhge8hSva2rdC9DmEzWz9f8)", unsafe_allow_html=True)
 
-    elif pilihan_soal == "Latihan Soal Kimia Dasar (PDF)":
-        pdf_url = "https://drive.google.com/drive/folders/1OOaMNXN3Vwhge8hSva2rdC9DmEzWz9f8"
-        st.markdown(f"[👉 Klik di sini untuk download PDF Kimia dasar 2]({})", unsafe_allow_html=True)
-
-    elif pilihan_soal == "Latihan Soal Kimia Dasar 2025 (Google Drive)":
-        st.markdown("[👉 Klik di sini ke Google Drive Kimia dasar 3](https://drive.google.com/file/d/xxx/view?usp=sharing)", unsafe_allow_html=True)
+    elif pilihan_soal == "Latihan Soal kimia dasar 2024 (PDF)":
+        st.markdown("[👉 Klik di sini untuk download PDF 2024](https:
