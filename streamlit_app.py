@@ -10,6 +10,7 @@ menu = st.sidebar.selectbox(
 if menu =="Beranda":
     st.title("Kalkulator Kimia Dasar")
     st.header("Pengertian Kimia")
+    st.writer("hudeuyvcbhe")
    
 #--- Menu Tabel Periodik Unsur ---
 if menu =="Tabel Periodik Unsur":
