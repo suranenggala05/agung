@@ -9,7 +9,8 @@ menu = st.sidebar.selectbox(
 # ---Menu BERANDA ---
 if menu =="Beranda":
     st.title("Kalkulator Kimia Dasar")
-    st.subheader("LPK Kelompok 5 kelas 1B")
+    st.header("Pengertian Kimia")
+    st.writer("" Kimia adalah cabang ilmu pengetahuan alam yang memepelajari tentang struktur, sifat, dan perubahan materi. Ilmu kimia sangat penting dalam kehidupan sehari-hari yang berperan dalam bidang farmasi,lingkungan,pangan, dan energi"")
     
 #--- Menu Tabel Periodik Unsur ---
 if menu =="Tabel Periodik Unsur":
