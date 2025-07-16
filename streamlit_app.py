@@ -102,11 +102,10 @@ elif menu == "Kalkulator Kimia Dasar":
         if st.button("Hitung"):
             persen = (massa_zat / massa_larutan) * 100 if massa_larutan != 0 else 0
             st.success(f"Persen Massa: {persen} %")
-            
-        # Buat file download
-        st.download_button(
-            label="Download Hasil sebagai TXT",
-            data=hasil_teks,
-            file_name='hasil_massa_jenis.txt',
-            mime='text/plain'
-        )
+            hasil_teks = f"Hasil Rumus {NAMA_RUMUS}:\nInput1: ... \nInput2: ... \nHasil: ..."
+st.download_button(
+    label="Download Hasil sebagai TXT",
+    data=hasil_teks,
+    file_name='hasil_nama_rumus.txt',
+    mime='text/plain'
+)
