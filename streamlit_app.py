@@ -115,11 +115,11 @@ elif menu == "Soal-soal Kimia Dasar":
     ])
 
     if pilihan_soal == "Latihan Soal Kimia Dasar Mudah (Google Docs)":
-        st.markdown("[👉 Klik di sini untuk membuka soal Bab 1](https://docs.google.com/document/d/xxx)", unsafe_allow_html=True)
+        st.markdown("[👉 Klik di sini untuk membuka soal Kimia dasar 1](https://docs.google.com/document/d/xxx)", unsafe_allow_html=True)
 
     elif pilihan_soal == "Latihan Soal Kimia Dasar (PDF)":
         pdf_url = "https://drive.google.com/uc?export=download&id=FILE_ID_PDF"
-        st.markdown(f"[👉 Klik di sini untuk download PDF Bab 2]({pdf_url})", unsafe_allow_html=True)
+        st.markdown(f"[👉 Klik di sini untuk download PDF Kimia dasar 2]({pdf_url})", unsafe_allow_html=True)
 
     elif pilihan_soal == "Latihan Soal Kimia Dasar 2025 (Google Drive)":
-        st.markdown("[👉 Klik di sini ke Google Drive Bab 3](https://drive.google.com/file/d/xxx/view?usp=sharing)", unsafe_allow_html=True)
+        st.markdown("[👉 Klik di sini ke Google Drive Kimia dasar 3](https://drive.google.com/file/d/xxx/view?usp=sharing)", unsafe_allow_html=True)
