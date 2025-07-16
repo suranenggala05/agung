@@ -122,7 +122,7 @@ elif menu == "Soal-soal Kimia Dasar":
 
     elif pilihan_soal == "Latihan Soal Kimia Dasar (PDF)":
         pdf_url = "https://drive.google.com/drive/folders/1OOaMNXN3Vwhge8hSva2rdC9DmEzWz9f8"
-        st.markdown(f"[👉 Klik di sini untuk download PDF Kimia dasar 2]({https://drive.google.com/drive/folders/1OOaMNXN3Vwhge8hSva2rdC9DmEzWz9f8})", unsafe_allow_html=True)
+        st.markdown(f"[👉 Klik di sini untuk download PDF Kimia dasar 2]({})", unsafe_allow_html=True)
 
     elif pilihan_soal == "Latihan Soal Kimia Dasar 2025 (Google Drive)":
         st.markdown("[👉 Klik di sini ke Google Drive Kimia dasar 3](https://drive.google.com/file/d/xxx/view?usp=sharing)", unsafe_allow_html=True)
