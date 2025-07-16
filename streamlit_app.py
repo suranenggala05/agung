@@ -103,7 +103,8 @@ elif menu == "Kalkulator Kimia Dasar":
         if st.button("Hitung"):
             persen = (massa_zat / massa_larutan) * 100 if massa_larutan != 0 else 0
             st.success(f"Persen Massa: {persen} %")
-            elif menu == "Soal-Soal Kimia Dasar":
+            
+elif menu == "Soal-soal Kimia Dasar":
     st.title("Soal-Soal Kimia Dasar")
     st.subheader("Silakan pilih soal atau materi yang ingin diakses:")
 
