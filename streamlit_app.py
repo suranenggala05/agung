@@ -116,5 +116,4 @@ elif menu == "Soal-soal Kimia Dasar":
         "Latihan Soal kimia dasar 2025 (PDF)",
         "Latihan Soal kimia (Google Drive)"
     ])
-      if pilihan_soal == "Latihan Soal kimia dasar 2025 (PDF)":
        
