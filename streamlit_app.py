@@ -102,3 +102,18 @@ elif menu == "Kalkulator Kimia Dasar":
         if st.button("Hitung"):
             persen = (massa_zat / massa_larutan) * 100 if massa_larutan != 0 else 0
             st.success(f"Persen Massa: {persen} %")
+            if rumus == "Massa Jenis":
+    massa = st.number_input("Massa (gram)")
+    volume = st.number_input("Volume (cm³)")
+    if st.button("Hitung"):
+        hasil = massa / volume if volume != 0 else 0
+        hasil_teks = f"Hasil Massa Jenis:\nMassa: {massa} gram\nVolume: {volume} cm³\nMassa Jenis: {hasil} g/cm³"
+        st.success(f"Massa Jenis: {hasil} g/cm³")
+        
+        # Buat file download
+        st.download_button(
+            label="Download Hasil sebagai TXT",
+            data=hasil_teks,
+            file_name='hasil_massa_jenis.txt',
+            mime='text/plain'
+        )
