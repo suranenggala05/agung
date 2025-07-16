@@ -3,7 +3,7 @@ import streamlit as st
 #Sidebar Menu
 menu = st.sidebar.selectbox(
     "Pilih menu",
-    ["Beranda","Kalkulator Kimia Dasar","Soal Hots Kimia Dasar","Catatan"]
+    ["Beranda","Kalkulator Kimia Dasar","Soal-soal Kimia Dasar","Catatan"]
 )
 
 # ---Menu BERANDA ---
@@ -103,3 +103,22 @@ elif menu == "Kalkulator Kimia Dasar":
         if st.button("Hitung"):
             persen = (massa_zat / massa_larutan) * 100 if massa_larutan != 0 else 0
             st.success(f"Persen Massa: {persen} %")
+            elif menu == "Soal-Soal Kimia Dasar":
+    st.title("Soal-Soal Kimia Dasar")
+    st.subheader("Silakan pilih soal atau materi yang ingin diakses:")
+
+    pilihan_soal = st.selectbox("Pilih File:", [
+        "Latihan Soal Bab 1 (Google Docs)",
+        "Latihan Soal Bab 2 (PDF)",
+        "Latihan Soal Bab 3 (Google Drive)"
+    ])
+
+    if pilihan_soal == "Latihan Soal Kimia Dasar Mudah (Google Docs)":
+        st.markdown("[👉 Klik di sini untuk membuka soal Bab 1](https://docs.google.com/document/d/xxx)", unsafe_allow_html=True)
+
+    elif pilihan_soal == "Latihan Soal Kimia Dasar (PDF)":
+        pdf_url = "https://drive.google.com/uc?export=download&id=FILE_ID_PDF"
+        st.markdown(f"[👉 Klik di sini untuk download PDF Bab 2]({pdf_url})", unsafe_allow_html=True)
+
+    elif pilihan_soal == "Latihan Soal Kimia Dasar 2025 (Google Drive)":
+        st.markdown("[👉 Klik di sini ke Google Drive Bab 3](https://drive.google.com/file/d/xxx/view?usp=sharing)", unsafe_allow_html=True)
