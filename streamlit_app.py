@@ -12,11 +12,8 @@ if menu =="Beranda":
     st.header("Pengertian Kimia")
    
 #--- Menu Tabel Periodik Unsur ---
-if menu =="Tabel Periodik Unsur":
-    st.title("Tabel Periodik Unsur")
-    data_unsur = pd.DataFrame.from_dict(ELEMENTS_DATA, orient='index,)
-    st.dataframe(data_unsur)                                
-    ELEMENTS_DATA = {
+if menu =="Tabel Periodik Unsur":                               
+ELEMENTS_DATA = {
     'H': {'name': 'Hidrogen', 'number': 1, 'mass': 1.008, 'group': 1, 'period': 1, 'category': 'nonlogam-reaktif'},
     'He': {'name': 'Helium', 'number': 2, 'mass': 4.0026, 'group': 18, 'period': 1, 'category': 'gas-mulia'},
     'Li': {'name': 'Litium', 'number': 3, 'mass': 6.94, 'group': 1, 'period': 2, 'category': 'logam-alkali'},
